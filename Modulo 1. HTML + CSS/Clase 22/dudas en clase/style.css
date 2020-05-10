@@ -1,0 +1,14 @@
+/* Para posicionar una imagen correctamente en hero, por ejemplo: */
+/*esta imagen debe estar metida dentro de un div*/
+#hero #imagen {
+    width: 300px; /* la altura y el ancho deben ser del mismo 
+    tamaño para que no me quede un ovalo cuando pongo el boder radius*/
+    height: 300px;
+    border-radius: 50% ; /*para hacer mi imagen redonda*/
+    overflow:  hidden; 
+}
+
+#hero .imagen img {
+    max-width: 100%; /* para que si la imagen es mas grande no se 
+    pase*/
+}

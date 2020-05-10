@@ -1,0 +1,20 @@
+.container {
+    padding: 35px;
+}
+
+.card {
+    width: 350px;
+    box-shadow: 0 0 5px #333333;
+    border-radius: 10px;
+    height: 550px;
+}
+
+.card-content  {     
+    padding: 10px;}
+
+.header-img {
+    max-width: 100%;
+}
+.nombre {
+    
+}

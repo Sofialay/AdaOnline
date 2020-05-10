@@ -1,0 +1,42 @@
+Clase 01.
+Profesor: Fede
+
+Front end: 
+Html
+Css
+Java 
+
+-Html: es basicamente un documento, puedo armar
+un documento estilo world.
+-Css: agarra ese "documento" y le pone un estilo.
+Java: interacciones con el usuario. Por ejemplo;
+el comportamiento del boton cuando le doy click.
+
+Html: Hyper Text Markup Language.
+- Es un lenguaje de marcado porque define los 
+limites, me dice de donde hasta donde tengo un 
+titulo o un parrafo, etc.
+
+Tag o etiqueta
+Una etiqueta se abre y se cierra
+los que se abren y cierran de esta forma <h1> </h1>
+o <br/>
+
+<h1> es por Header, 1 es por la importancia.
+Exite h2, h3, h4 etc, la letra se minimiza porque
+la importancia es menor.
+
+-<ul> </ul> una lista sin orden, estoy diciendo 
+que hay una lista. 
+dentro de eso un <li> </li> (list item)
+puedo ponerle todas las que quiera.
+
+indentar me permite tener el codigo en base
+a jerarquias. Ej; hijos y hermanos
+
+-<ol> </ol> Order list. Listas ordenadas por numeros.
+
+Tarea para el hogar, poner un texto en negrita
+<strong> Texto X </strong> solucion
+
+

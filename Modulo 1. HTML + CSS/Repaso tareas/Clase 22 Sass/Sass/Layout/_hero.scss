@@ -1,0 +1,107 @@
+@import "../Abstract/variables";
+
+.hero {
+    margin: 0;
+    height: fit-content;
+    background-color: $background-hero;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+        .profiles {
+        text-transform: uppercase;
+        margin: 50px;
+        font-family: $Font;
+        color: $grayintense;
+    }
+    .cards {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+         .card {
+        font-family: $Font;
+       display: block;
+        margin: 20px;
+        background-color: white;
+        height: 500px;
+        width: 350px;
+        border-radius: 4px;
+        box-shadow: $box-shadow-cards;
+    
+         img {
+         margin-left: 30%;
+         margin-bottom: 20px;
+            height: 150px;
+            width: 150px;
+            border-radius: 50%;
+            box-shadow: $box-shadow;
+        
+        }
+        .number-top {
+        color: $grayintense;
+        margin: 10px;
+        font-size: larger;
+        display: flex;
+        justify-content: flex-end;
+    }
+          h1 {
+        margin: 0;
+        display: flex;
+        justify-content: center;
+        color: $graymoreintense;
+    }
+          .icon-prof {
+        color: $profession-color;
+        display: flex;
+        justify-content: center;
+                p {
+                color: $profession-color;
+                }
+                .fa-user {
+                margin-top: 8px;
+                }
+    }
+    .skills {
+        display: flex;
+          p {
+            color: $graymoreintense;
+            width: 100px;
+            height: 30px;
+            justify-content: center;
+            margin: 10px;
+            border-radius: 40px;
+            background-color: whitesmoke;
+            &:hover {
+                cursor: pointer;
+                background-color: $linkandbutton-colors;}
+            }
+        }
+    p {
+      color: $grayintense;
+        display: flex;
+        margin: 8px;
+        justify-content: center;}
+    }
+   .about {
+       margin: 25px;
+
+   }
+.boton {
+background-color: white;
+width: 350px;
+height: 70px;
+border: none;
+font-weight: 600;
+color: $graymoreintense;
+text-transform: uppercase;
+&:hover {
+    cursor: pointer;
+    color: $whitesmoke;
+    background-color: $linkandbutton-colors;
+}
+
+}
+   
+   }
+

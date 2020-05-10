@@ -1,0 +1,12 @@
+@import "./cards";
+@import "./leftpart";
+@import "./variables";
+
+.content {
+    background-color: blue;
+
+& .left-part {
+    background-color: orangered;
+    width: 30%;
+}
+}

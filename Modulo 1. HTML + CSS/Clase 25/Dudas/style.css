@@ -1,0 +1,23 @@
+#padre #hijo { /* el espacio me indica que estoy modificando al hijo, el espacio me dice que es "hijo de" */
+
+}
+
+#separado1,
+#separado2 { /* le doy las mismas propiedades a los dos, porque estan separados por coma*/
+
+}
+
+#hermane1 ~ #hermane {
+            /*selecciona en este caso a hermane1 y a todas las clases hermane*/
+}
+
+/* para el hijo directo con el >*/
+/* para el hermano que le sigue + */
+
+.una-clase {
+    display: none;
+}
+
+#input:checked + .una-clase { /* aca le digo que cuando el input esta checked mi clase se muestre */
+    display: block;
+}

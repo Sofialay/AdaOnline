@@ -1,0 +1,22 @@
+Init- commit
+Head --> nos dice donde estamos parados.
+Repositorio: donde tenemos todos nuestros archivos y nuestras cosas, se llama repositorio local.
+Git log para que me muestre la lista de repositorios.
+
+Git add . ---> me va a pasar mis cosas a stage. 
+
+Git reset ---> volver hacia commits anteriores, es poco usable.
+
+git remote -v 
+
+git status, git add, git commit -m "ejemplo"
+
+git push 'origin (o nombre del repo)' master
+
+git status siempre para ver el estado. 
+
+siempre usar el remoto con el nombre origin
+
+Machete; git remote add origin 'httsp..'
+git push origin master
+

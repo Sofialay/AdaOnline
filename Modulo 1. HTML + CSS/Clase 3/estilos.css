@@ -1,0 +1,70 @@
+.fondo-violeta {
+    background-color: mediumpurple;
+}
+
+.texto-remarcado {
+    text-decoration: underline;
+    font-size: 25px;
+}
+
+.block { 
+    display: block;
+    width: 50%;
+}
+
+.inline {
+    display: inline;
+}
+
+.seccion-2 {
+    background-color: green;
+    display: inline-block;
+    height: 100px;
+    overflow: hidden;
+    text-align: center;
+    width: inherit;
+}
+
+.link-amazon {
+    color: lawngreen;
+
+}
+.link-amazon:visited {
+    color: red;
+}
+
+.color.negro {
+    color: black;
+
+}
+
+.background-azul {
+    color: blue;
+}
+
+.subrayado {
+    text-decoration: underline;
+
+}
+
+.seccion-2 {
+    background-color: green;
+    display: inline-block;
+    width: 350px;
+    text-align: center;
+    padding: 180px;
+    border: lightcoral;
+    overflow: scroll;
+}
+ 
+.span-contenido { 
+    border: 3px solid black;
+    box-sizing: border-box;
+    display: inline-block;
+    margin: 20px;
+    padding: 15px;
+    width: 180px;
+}
+
+.titulo-1 { font-family: 'Tomorrow', sans-serif;
+ color: crimson ;}

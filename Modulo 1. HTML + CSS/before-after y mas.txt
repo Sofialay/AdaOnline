@@ -1,0 +1,166 @@
+Clase 25:
+Animaciones
+
+Animation-name: cuadradit-move;
+animation-duration: 30s;
+animation-timing-function: linear;
+animation-iteration-count: infinite
+
+@keyframes cuadradit-move {
+0% {
+left:
+top: }
+25% {}
+50 {}
+75 {}
+
+Orne ---> Header
+Yo ---> Hero
+Niko ---> Botones 
+Juli --->Main menu
+Flor Sosa --->Cards
+Flor Apreda ---> Footer
+
+
+
+
+
+--------------------------------
+Acamica, animaciones.
+Animacion de interfaz.
+Son animaciones invisibles, 
+minimas en los sitios que ayudan
+a los usuarios entender que esta pasando.
+
+Transforms
+Transition
+Keyframes
+
+Transition nos ayuda a hacer 
+animaciones sutiles.
+
+Para hacer animaciones menos sutiles
+podemos usar keyframes.
+
+W3C es el organizmo que genera estas
+endidades.
+
+Caniuse es una pagina que nos indica
+en dpnde funciona nuestra animacion,
+en que browsers, dispositivos etc.
+
+Transforms:
+Todo a lo que le apliquemos transform va
+a trabajar como position relative, tendra
+activo el Z index.
+
+Modifica todo el elemento, el fondo
+y el contenido que lleva dentro.
+
+Rotate:
+transform: rotate (...deg)
+
+si queremos que de vueltas el elemento
+podemos usar:
+rotate (3turn)
+
+skew: forma de inclinar nuestros
+elementos 
+skew(23deg) 
+inclina en x por default
+si queremos que incline x e y 
+podemos hacer entonces skew(23deg, 35deg)
+
+
+Scale: 
+los elementos escalan en un 
+50%, para hacer crecer en ancho y no en alto
+debo usar la misma logica que en 
+"skew", en scale no usamos grados
+sino que usamos numeros
+ejemplo:
+(1.5)
+(1.5, 0.5)
+
+Translate:
+por default cuando aplicamos esta
+propiedad translte(20px,50px)
+se mueve hacia la derecha y abajo.
+
+Para hacer que se mueva hacia la izquierda
+y hacia arriba debemos colocarle un signo
+- adelante de los pixeles.
+
+(-20px,-50px)
+
+Varias transformaciones a un mismo
+elemento: rotate, scale.
+separadas por coma
+el orden afecta el resultado.
+
+
+Transform origin:
+transform-origin: top left; o
+bottom center;
+
+Evitar temblores en hover:
+crear un padre contenedor para el
+elemento.
+
+padre > div:
+
+padre:hover.
+
+--------------------
+Transition:
+Hace que el cambio tenga duracion
+
+Property duration: 
+transition-duration: 2s
+
+Se trabajan en segundos.
+
+Transition-property: le decimos a que
+parte de nuestro elemento lo 
+queremos cambiar, por ejemplo background
+
+Aceleracion:
+a traves de la propiedad
+timing-function.
+
+Timing-function:
+podemos decirle que baja mas rapido
+al comienzo y mas lento al final
+con ease-out
+linear; velocidad constante
+
+(cubic-bezier, web para probar)
+
+------------------------
+Before and after
+Para usar esta propiedad debemos
+aplicarles las propiedades
+content ''
+y un display 
+sino no funciona.
+
+Before and after lo podemos utilizar
+para no usar tantos divs, o tener
+menos codigo en nuestro html
+
+Por qué algunas propiedades son
+::before y no :before?
+
+------
+Propiedad target
+
+
+Para que mi target funcione debemos
+tener un elemento que sea llamado
+Ejemplo. Un link que este targueteado
+a href= #link
+div id= link
+
+Sirve para ir a un lugar en concreto
+de la pagina. Lo podemos estilar como un 
+boton.

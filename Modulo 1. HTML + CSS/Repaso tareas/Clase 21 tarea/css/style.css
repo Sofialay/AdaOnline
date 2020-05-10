@@ -1,0 +1,8 @@
+body {
+  background-color: yellow;
+}
+.content {
+  background-color: blue; }
+  .content .left-part {
+    background-color: orangered;
+    width: 30%; }

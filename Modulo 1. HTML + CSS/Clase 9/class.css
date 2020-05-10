@@ -1,0 +1,91 @@
+/*BACKGROUND*/
+.hero {
+    background-image: url('img/background.jpg');
+    background-size: 125%;
+    Background-position: -275px -240px;
+    background-repeat: no-repeat;
+    height: 1200px;
+}
+.hero h1 {
+    margin: 0;
+}
+/*ICONOS*/
+.iconitos .fas,
+.iconitos .fab {
+    font-size: 25px;
+}
+
+.iconitos li {
+    margin-bottom: 25px;
+    display: inline-block; /*esto me pone la lista horizontal*/
+}
+
+.fa-github {
+    color: lightseagreen;
+}
+
+/*FLEXBOX*/
+.cubitos {
+    width: 100px;
+height: 100px;
+}
+
+.cubitos.blue {
+    background-color: cyan;
+}
+
+.cubitos.red {
+    background-color: crimson;
+}
+
+.cubitos.green {
+    background-color: green;
+}
+.cubitos-container {
+    display: flex;
+}
+.flex-wrap {
+    flex-wrap: wrap;
+}
+
+.direction {
+    flex-direction: row-reverse;
+}
+/* 4 valores posibles:
+1.row (valor por default)
+2.row-reverse
+3.column
+4.column-reverse
+*/
+
+.justify /*toma los valores en nivel horizontal*/ {
+    justify-content: flex-start;
+}
+/* 
+Valores mas comunes:
+1. flex-start )valor por default)
+2. flex-end
+3. space-evenly
+4.space.between
+5space-around
+*/
+
+.aling {
+    align-items: flex-start;
+    height: 250px;
+    border: indigo;
+}
+/*
+Valores comunes:
+1.flex-start (valor por default)
+2.flex-end
+3.center
+*/
+
+.center {
+    align-items: center; /*vertical al centre*/
+    height: 250px;
+    border: indigo;
+    justify-content: center; /*horizontal al centro*/
+
+}

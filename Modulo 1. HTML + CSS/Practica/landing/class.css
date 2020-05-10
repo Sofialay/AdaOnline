@@ -1,0 +1,64 @@
+body {
+    background-image: url(img/landing2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#hero {
+   margin: 0% 100px;
+   padding: 25px;
+}
+
+.links {
+   display: flex;
+   justify-content: space-around;
+}
+
+a {
+    text-decoration: none;
+    font-size: large;
+    color: #556D8C;
+    font-family: 'Roboto Slab', serif;
+    cursor: pointer;
+}
+
+.content {
+    padding: 150px;
+    display: flex;
+    flex-direction: column;
+    font-family: 'Kaushan Script', cursive;
+    align-items: center;
+
+}
+
+.content h1 {
+    font-weight: 700px;
+    font-size: 4rem;
+}
+
+form{
+display: flex;
+justify-content: center;
+}
+
+input {
+    display: inline-block;
+    width: 400px;
+    height: 35px;
+}
+
+::placeholder {
+    padding-left: 10px;
+}
+
+button {
+    width: 100px;
+    height: 35px;
+    background-color: #FF6361;
+    color: white;
+    border: none;
+}
+
+button:hover {
+    background-color:  rgb(238,174,202);
+}

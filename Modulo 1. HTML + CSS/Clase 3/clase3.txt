@@ -1,0 +1,21 @@
+Clase 03:
+
+DIV
+SPAN
+
+Buscar mas sobre Inline y Block
+
+Display: block o inline, en como yo quiero que 
+se comporte
+
+Multiples clases;
+Puedo tener mas de una clase (Class)
+
+Propiedades!
+Width: designamos un ancho a nuestro elemento
+Text-align: center;
+(Para centrar el texto)
+height: 100px
+(Altura)
+Overflow: hidden, scroll..
+(Esconde contenido cuando se desborda)

@@ -1,0 +1,48 @@
+.section { font-family: 'Tomorrow', sans-serif;
+}
+
+.primero { background-color: lightblue;}
+
+.segundo {
+    background-color: lightcoral;
+}
+
+.tercero { background-color: lightgreen;}
+
+.primero .container { background-color: darkcyan;}
+
+.segundo .container { background-color: crimson;}
+
+.tercero .container { background-color:greenyellow;}
+
+.container { 
+    margin:15px auto;
+padding: 30px;
+    width: 600px;
+border:solid 5px darkgoldenrod;
+box-shadow: 0 0 15px grey;}
+
+    .container p {
+        border-left:  3px solid #333333;
+        padding-left: 15px;
+        margin: 0;
+    }
+    .block {
+        display: block;
+    }
+    
+    h1 { color: #333333;}
+    .container img {width: 200px;
+    margin: 15px;
+margin-left: 200px;}
+
+    .quote-name {
+        background-color: salmon;
+        color: #ffffff;
+        width: 150px;
+        text-align: center;
+        font-size: 30px;
+        height: 150px;
+        line-height: 150px;
+        border-radius: 100px; /*nuevo!, suavizar puntas*/
+        box-shadow:-10px 5px 0 lightgray ;   /*nuevo, sombra al rededor. Tenemos que darle la informacion de el vertical, horizontal y el difuminado (color)*/

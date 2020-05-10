@@ -1,0 +1,52 @@
+.header {
+    height: 100px;
+    background-color: indianred;
+    width: 100%;
+}
+
+
+@media (min-width: 320px) {
+
+.movile {
+    display: inline-block;
+    width: 100%;
+}
+
+.movile .fa-bars {
+    margin-left: 75%;
+}
+
+.movile h1 {
+    display: inline-block;
+    margin-left: 5px;
+}
+  
+.icons {
+    display: none;
+    }
+
+.signup {
+    display: none;
+}
+}
+
+@media (min-width: 768px) {
+.header {
+    display: flex;
+    align-items: center;
+}
+
+.icons {
+    display: flex;
+    justify-content: center;
+}
+
+.icon {
+    margin: 10px;
+}
+
+.fa-bars {
+    display: none;
+}
+
+}

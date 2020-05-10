@@ -1,0 +1,56 @@
+@import "../Abstract/variables";
+
+.header {
+    height: 65px;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid $lightgray;
+    nav {
+         margin: 20px;
+    }
+    .black {
+        text-decoration: none;
+        margin-right: $margin-right;
+        color: $link-gray-header;
+        font-family: $Font;
+        text-transform: uppercase;
+    }
+    .blue {
+        text-decoration: none;
+        margin-right: $margin-right;
+        color: $linkandbutton-colors;
+        font-family: $Font;
+        text-transform: uppercase;
+    }
+    img.logo {
+        margin-left: 50px;
+        height: 60px;
+    }
+}
+
+.bottom {
+    border-bottom: 1px solid $lightgray;
+    display: block;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: $link-gray-header;
+    height: 70px;
+    font-family: $Font;
+    .blue {
+        color: $linkandbutton-colors;
+    }
+    .home {
+        margin-left: 70px;
+    }
+    .iconitos {
+        margin-right: 55px;
+        }
+    .fa-bars {
+        margin-right: $margin-right;
+    }
+    .fa-th-large{
+        color: $linkandbutton-colors;
+     }
+    }
+    

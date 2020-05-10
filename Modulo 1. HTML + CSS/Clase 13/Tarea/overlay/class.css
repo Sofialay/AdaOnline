@@ -1,0 +1,55 @@
+.container-img {
+    display: flex;
+    position: relative;
+
+}
+
+.column-1 {
+    width: 50%;
+    margin-left: 22%;
+    
+}
+.cat1 {
+    width: 400px;
+    height: 300px;
+    margin-bottom: 6%;
+}
+
+.cat2 {
+    width: 400px;
+    height: 300px;
+}
+
+.column-2 {
+    width: 50%;
+    margin-right: 22%;
+  
+}
+
+.cat3 {
+    width: 400px;
+    height: 300px;
+    margin-bottom: 6%;
+}
+
+.cat4 {
+    width: 400px;
+    height: 300px;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 5;
+  transition: .5s ease;
+  background-color: #008CBA;
+}
+
+.cat1:hover .overlay {
+    opacity: 1;
+  }

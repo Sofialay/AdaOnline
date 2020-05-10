@@ -1,0 +1,30 @@
+@import "./_colores";
+@import "./height";
+
+body {
+    display: block;
+    margin: 0;
+}
+
+.caja {
+    margin: 15px;
+    height: $height-boxes;
+    width: 150px;
+    background-color: $background-color; 
+    & .cajita1 {
+        height: 50px;
+        width: 50px;
+        background-color: $background-color2;
+        position: relative;}
+
+.caja2 {
+    margin: 15px;
+    height: $height-boxes;
+    width: 150px;
+    background-color: $background-color; 
+    & .cajita2 {
+        height: 50px;
+        width: 50px;
+        background-color: $background-color2;
+        }
+}

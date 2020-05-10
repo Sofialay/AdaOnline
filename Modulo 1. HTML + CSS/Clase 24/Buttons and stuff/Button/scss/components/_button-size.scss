@@ -1,0 +1,16 @@
+.button1 {
+    width: 150px;
+    height: 50px;
+    background-color: $blanco-crema;
+    color: $celeste;
+    font-family: $roboto;
+    font-size: $font-s ;
+    border: none;
+    &:hover { 
+    transition: 0.3 ease-out transform;
+    background-color: $celeste;
+    color: $blanco-crema;
+    cursor: pointer;
+    transform: translateY(-0.25em);
+    }
+}

@@ -1,0 +1,13 @@
+Clase 9
+No deberia ponerse un h2 dentro de un <ul>
+
+Para imagen background:  background-image: url ('')
+No es parte del contenido, no tiene peso semantico.
+Si quiero una imagen como parte de mi contenido no la voy a poner de fondo.
+Background-size: 175% (ejemplo)
+Background-position: -275px -250px;
+Background-repeat: no-repeat; repeat-y; repeat-x
+
+ICONOS: en visualstudio class.css
+
+FLEXBOX: en visualstudio class.css

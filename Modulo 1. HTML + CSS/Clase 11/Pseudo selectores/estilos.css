@@ -1,0 +1,23 @@
+button {
+    display: block;
+    width: 200px;
+    height: 45px;
+    border: none;
+    background-color: crimson;
+    color: white;
+    margin-bottom: 25px;
+    transition: all 0.2s linear; /*nuevo! hace transicion de colores*/
+    cursor: pointer; /* primer detalle de ux que vemos, importante!*/
+}
+
+button:hover {
+    background-color: #ff5e57;
+}
+
+button:active {
+    background-color: springgreen;
+}
+
+input:focus{
+    background-color: steelblue;
+}

@@ -1,0 +1,50 @@
+ADA ONLINE
+ 
+Repasar block e inline.
+
+Github;
+cd desktop 
+
+cd y el nombre de la carpeta a la que quiero acceder
+
+Acostumbrarse a escribir sin espacios los nombres de carpetas.
+SeEscribeTodoTipoAsi
+
+Clear para limpiar.
+Letra tab para entrar en carpeta.
+
+cd .. ----> para volver una carpeta atras
+
+Siempre que queres ir a una carpeta tenes que navegar hacia esa carpeta.
+
+Clear para borrar.
+Para navegar directo:
+cd "Desktop/Ada Online - /Clase 01"
+
+Ls para ver el nombre de las carpetas.
+---> una herramienta Krita.
+
+Que es Git?
+Es un control de versiones que me va a permitir controlar las versiones de mi software para guardar los cambios sin perderlos.
+Nos permite guardar nuestras versiones.
+La ultima version se llama HEAD.
+
+Git log ----> nos muestra los commit.
+El HEAD nos indica la ultima version que estamos usando.
+checkpoints de nuevas versiones
+
+comando: Git status 
+Me dice cual es el estado de mi repositorio
+
+Untracked files: archivos que yo todavia no agregue. Mi repositorio los ve como un archivo nuevo.
+
+Buscar commit git brush
+
+No escribir git commit solo.
+Para hacer uno usar el comando 
+git commit -m "Primer commit"
+
+git add . ---> pasa mis archivos a Stage
+git status --->  nos muestra el status actual
+
+cd ---> change directory

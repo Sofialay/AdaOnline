@@ -1,0 +1,97 @@
+Clase 03:
+
+DIV
+SPAN
+
+Buscar mas sobre Inline y Block
+
+Display: block o inline, en como yo quiero que 
+se comporte
+
+Multiples clases;
+Puedo tener mas de una clase (Class)
+
+Propiedades!
+Width: designamos un ancho a nuestro elemento
+Text-align: center;
+(Para centrar el texto)
+height: 100px
+(Altura)
+Overflow: hidden, scroll..
+(Esconde contenido cuando se desborda)
+Padding
+Border
+display: inline-block
+box-sizing: border-box
+
+.box-model
+text align:center
+
+--------------------------------------------
+Titulo y parrafo para que esten los dos de 
+un solo color, colocar un div arriba con ese
+color. Un div es como una "caja". Me ayuda a
+estructurar los elementos de la pagina. Los
+separa organizativamente en el codigo.
+
+Span: es una manera de agarrar un texto para
+estilarlo.
+Ejemplos:
+<span class= "texto-remarcado>
+en CSS: 
+.texto-remarcado
+text-decoration: underline
+font size: 25px
+
+Diferencias entre div y span.
+
+Elementos inline (de linea) 
+Elementos de bloque 
+
+El elemento de bloque en su definicion es 
+literalmente un bloque de codigo
+Si nos apoyamos en un div nos selecciona el
+ancho de la pantalla. 
+El elemento de linea nos muestra solo el tamaño
+de su contenido, ese es un span. 
+
+Div--> Bloque
+Span--> Linea
+
+Si dentro de un span pongo "block"
+Ejemplo: <span class="block"> y luego en CSS: 
+.Block { display } me va a mostrar el texto
+que tengo dentro con el 100% de la pantalla
+
+Un elemento en bloque ocupa el 100% del ancho 
+de la pantalla por default (aunque se puede 
+cambiar) y tira a sus "hermanos" abajo
+
+Al reves tambien puedo hacer:
+<div class="inline>" 
+.inline { display: inline; 
+}
+
+<link rel="stylesheet" href="estilos.css" />
+Se pone siempre antes de modificar un archivo
+con CSS, sino, no te lo toma.
+
+Siempre es mejor referenciar por clase
+Por ejemplo: <h1 class="clase-de-titulo">
+En CSS: .clase-de-titulo { ..
+
+Puedo tener mas de una clase:
+Por ejemplo en un titulo:
+<h1 class="color-negro background-azul 
+subrayado" titulo 2 </h1>
+
+Luego en CSS: .subrayado { 
+text-decoration: underline
+}
+
+Height: propiedad que me permite setear la
+altura 
+
+Overflow: scroll (aunque ya no se usa)
+
+Tarea: meter una imagen en el html

@@ -1,0 +1,116 @@
+body {
+background-color: #ecf0f1;
+}
+
+.header {
+    display: flex;
+    justify-content: center;
+    background-color: #dfe4ea;
+    position: relative;
+}
+
+.photocam {
+position: absolute;
+bottom: 10px;
+left: 1%;
+width: 90px;
+cursor: pointer;
+}
+
+
+.icons {
+    display: flex;
+}
+
+.icon {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    font-family: 'Source Sans Pro';
+  font-style: normal;
+  font-weight: 300;;
+}
+
+.icon p {
+    color: #7f8c8d;
+}
+
+.fa-grip-lines{
+  color: #8395a7;
+}
+.fa-project-diagram {
+    color: #8395a7;
+}
+.fa-users {
+    color: #8395a7;
+}
+.fa-info-circle {
+    color: #8395a7;
+}
+
+.icon:hover {
+    display: flex;
+    justify-content: center;
+    cursor: pointer;
+    height: auto;
+    width: auto;
+    box-sizing: border-box;
+    box-shadow: 1px 0 5px 5px #ced6e0;
+    border-radius: 5px;
+    text-decoration-color: transparent;
+    transform: none;
+}
+
+.icon:hover p {
+    font-weight: 400;
+    color: #636e72;
+}
+
+.hero {
+    display: flex; 
+    justify-content:center;
+    position: relative;
+}
+
+.hero h1 {
+    
+    font-size: xx-large;
+    font-weight: 400;
+    font-style: oblique;
+    color: #b2bec3
+}
+
+.img-container {
+    display: flex;
+    justify-content: center;
+}
+
+.imagen {
+background: white;
+box-shadow: 2px 2px 10px #95afc0;
+box-sizing: border-box;
+display: inline-block;
+padding: 10px;
+margin: 20px;
+width: 210px;
+margin-top: 40px;
+border-radius: 5px;
+transition: transform 0.1s linear;
+}
+
+.imagen img {
+    max-width: 100%;
+}
+
+.imagen figcaption {
+    font-family: 'Source Sans Pro';
+    color: #3c6382;
+    text-align: center;
+}
+
+.imagen:hover {
+    cursor: pointer;
+    transform: scale(1.5);
+}
+

@@ -1,0 +1,114 @@
+
+.card {
+    width: 350px;
+    height: 600px;
+    border-radius: 10px;
+    box-shadow: 0 12px 12px gray;
+    background-color: whitesmoke;
+    text-align: center;
+    margin: auto;
+}
+
+.card-content {
+    flex-direction: column;
+    font-family: 'Noticia Text', serif;
+    padding: 2px 16px;
+    max-width: 100%;
+    
+    
+}
+
+.card-content h1 {
+    font-size: larger;
+    color: darkslategray;
+}
+
+
+.card-content .servicios {
+    font-family: 'Noticia Text', serif;
+   display: flex;
+   align-content: flex-start;
+   
+
+}
+
+
+.icons {
+    display: flex;
+    flex-direction: column;
+    font-family: 'Noticia Text', serif;
+    color: gray;
+    text-decoration: none;
+    margin-bottom: 15px;
+}
+
+
+.header-img {
+    max-width: 100%;
+    border-radius: 5px 5px 0 0;
+    position: relative;
+}
+
+button {
+   display: block;
+   border: none;
+   width: 200px;
+   height: 20px;
+   background-color: cornflowerblue;
+ cursor: pointer;
+ margin: auto;
+ margin-bottom: 5%;
+   
+}
+
+button:hover {
+   background-color: cyan;
+}
+
+button:active {
+    background-color: springgreen;
+}
+
+.card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+.fa-facebook-square {
+    color: blue;
+    background-color: white;
+}
+
+.fa-twitter-square {
+    color: cyan;
+    background-color: white;
+}
+
+.fa-pinterest-square {
+    color: red;
+    background-color: white;
+}
+
+.fas {
+    padding: 2px 0;
+}
+
+.promo {
+    position: absolute;
+    width: 90px;
+    height: 90px;
+    border-radius: 100px;
+    background-color: crimson;
+    top: 10px;
+    left: 160px;
+    
+
+}
+
+.descuento {
+  text-align: center;
+  margin-top: 20px;
+  color: white;
+  font-weight: bold;
+  font-size: 25px;
+
+}

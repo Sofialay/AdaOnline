@@ -1,0 +1,42 @@
+Clase 02.
+Para poner link en el codigo, ej;
+<a href="https://www.google.com">Link a google</a>
+
+
+"Doc" abreviacion, un atajo de codigo. Solo
+sale en archivos html
+
+<!DOCTYPE ---> no hace falta poner ya que el
+navegador lo detecta pero es una buena costumbre
+
+IDE : editor de texto, me ayuda a desarrolar
+mas rapido.
+
+Para meter un link dentro de un parrafo:
+<p>Hola soy un parrafo
+y ahora tengo un <a href="https://google.com">Link!</a>
+
+Meter listas dentro de un parrafo:
+ <ul>
+      <li>Elemento 1</li>
+        </ul>
+
+INLINE: edicion en linea
+<h1 style="background-color: 
+PARA EL COLOR DE FONDO
+
+LETRAS BLANCAS 
+color: #ffffff
+
+<hr /> es un separador 
+
+Los detalles tienen mas importancia.
+Lo mas grandular tiene mas preponderancia
+
+ATRIBUTOS: style (background color; color),
+ class (va con punto . para llamar a
+una clase), href (link)
+
+id <!---- identificador, es unico
+
+

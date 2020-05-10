@@ -1,0 +1,127 @@
+body{
+    margin: 0;
+}
+.hero {
+    display: flex;
+    justify-content: center;
+    background-color: honeydew;
+    padding: 50px;
+    position: relative;
+}
+
+img {
+    width: 400px;
+    padding-right: 40px
+}
+
+.section-text
+{
+    font-family: 'Montserrat', sans-serif;
+    width: 400px;
+    color: #2c3e50;
+}
+
+.section-text h1 {
+font-size: 40px;
+font-weight: bold;
+
+}
+
+.icons {
+    display: flex;
+    align-items: center;
+}
+
+.section-text h4{
+font-weight: bold;
+
+}
+
+.fa-pepper-hot {
+    color: red;
+    margin-right: 10px;
+}
+
+.fa-pepper-hot.inactive {
+    color: grey;
+}
+
+
+.section-text p{
+font-weight: normal;
+}
+
+.container {
+   display: flex;
+   align-items: center;
+}
+
+.numbers {
+display: flex;
+align-items: center;
+justify-content: space-evenly;
+color: #333333;
+width: 115px;
+height: 30px;
+text-align: center;
+border-style: groove;
+border-radius: 15px;
+font-weight: 600;
+box-shadow: 2px 0px 10px 0px;
+border: none;
+}
+
+.numbers p {
+    font-weight: bold;
+}
+
+.price {
+    margin-left: 10px;
+    color: grey;
+    font-size: 20px;
+    width: 115px;
+    height: 30px;
+    text-align: center;
+    border-style: groove;
+    border-radius: 15px;
+}
+
+.price .price1 {
+    color: red;
+    font-weight: bold;
+}
+
+.button {
+    cursor: pointer;
+    display: block;
+    height: 45px;
+    width: 300px;
+    border: none;
+    color: honeydew;
+    font-weight: bold;
+    border-radius: 8px;
+background: linear-gradient(90deg, rgba(145,33,209,1) 0%, rgba(219,119,163,1) 100%);
+}
+
+.back-to-menu {
+    position: absolute;
+    cursor: pointer;
+    display: flex;
+    height: 55px;
+    width: 290px;
+    border: none;
+    color: honeydew;
+    border-radius: 0 8px 8px 0px;
+    background-color: #34495e;
+    font-family: 'Montserrat', sans-serif;
+    left: 0;
+
+}
+
+.back-to-menu p {
+width: 100%;
+padding-right: 15px;
+display: flex;
+justify-content: flex-end;
+font-size: 15px;
+}

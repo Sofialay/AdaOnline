@@ -1,0 +1,56 @@
+
+.header {
+        display: flex;
+        background-color: #F7C0AA;
+        height: 100px;
+        position: relative;
+    }
+
+.titulo {
+    margin-left: 10px;
+    font-family: 'Source Sans Pro';
+    font-style: oblique;
+    color: #64A587;
+}
+
+@media (min-width: 320px) {
+
+.fa-bars { 
+    position: absolute;
+    right: 50px;
+    bottom: 60px;
+
+}
+.icons {
+    display: none;
+}
+ 
+.header .hidden {
+    visibility: hidden;
+}
+
+@media (min-width: 768px) {
+    .header {
+        display: flex;
+        justify-content: space-between;
+        background-color: #dfe4ea;
+        height: 100px;
+}
+.bar{ display: none;}
+.icons {
+ display: flex;
+ font-family: 'Source Sans Pro';
+align-items: center;
+    }
+
+    .icon {
+        margin-right: 15px;
+        text-align: center;
+
+    }
+    
+    .fa-bars {
+        display: none;
+    }
+    
+}

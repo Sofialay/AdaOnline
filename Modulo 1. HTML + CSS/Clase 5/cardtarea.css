@@ -1,0 +1,24 @@
+.container {
+    padding: 35px;
+}
+
+.card { width: 350px;
+ box-shadow: 0 0 5px #333333;
+border-radius: 10 px;
+height: 550 px ;
+}
+
+.card-content p {
+    font-family: 'Arvo';
+    padding: 10px;
+}
+
+.header-img {
+    max-width: 300px;
+
+}
+h1 { 
+    font-family: 'Lobster';
+    width: 100px;
+    margin: auto;
+}

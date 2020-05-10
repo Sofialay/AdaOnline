@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+</head>
+<body>
+
+    <!--Method puede tomar dos valores: GET Y POST-->
+    <form action="http://google.com" method="GET">
+        <label>
+            Query:
+        <input 
+        type="text" 
+        name="q" 
+        placeholder="how to program.."
+        maxleght="10"
+        />
+        </label>
+
+        <label>
+            Edad: </label>
+        <input type="number" 
+        name="edad"
+        maxlength="10"
+        placeholder="25"
+        />
+
+        <div>
+            <label>Email</label>
+            <input type="email" name="email">
+        </div>
+
+        <div>
+            <label>Date</label>
+            <input type="date" name=date>
+
+        </div>
+
+        <div>
+            <label>checkbox</label>
+            <input type="checkbox" name=check value="lo que se me ocurra">
+        </div>
+
+        <div>
+            <label>1</label>
+            <input type="radio" name="numeroquequiero" value="1">
+        </div>
+
+        <div>
+            <label>2</label>
+            <input type="radio" name="radio" value="2">
+        </div>
+
+        <div>
+            <label>3</label>
+            <input type="radio" name="radio" value="3">
+        </div>
+        
+        <button type="submit">Mi boton</button>
+    </form>
+</body>
+</html>

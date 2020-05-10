@@ -1,0 +1,39 @@
+Clase 5
+
+<div class="section ">
+        <div class="container">
+
+Van en ese orden.
+
+margin-left: auto;
+    margin-right: auto;
+    margin-top: 15px;
+    margin-bottom: 15px; 
+
+En vez de hacer todo esto, hacemos un short cut
+que es;  margin: 15px auto;
+
+Para hacer una cita:
+
+ .container p {
+        border-left:  3px solid #333333;
+        padding-left: 15px;
+        margin: 0;
+
+/* para anotar en visual 
+
+Padding: el espacio que va a haber desde el borde de la etiqueta (box ¿?) hacia adentro.
+En vez de poner 15px left, right, top, botton.. hacemos un short cut y le ponemos 5 px auto. 
+
+cards codepen: es de diseño. Es relacionado a lo que vos quieras mostrar 
+
+height y width (!)
+
+paginas:
+codepen
+flaticon
+landing
+
+SVG= Imagen vectorial que no se pixela
+
+<flooter> Nuevo.  Es como un pie de pagina del contenido, podes poner link, info de contacto, etc.. 

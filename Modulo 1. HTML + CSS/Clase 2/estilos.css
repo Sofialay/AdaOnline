@@ -1,0 +1,23 @@
+.parrafo-especial {
+    font-weight: 600; /*normal, bold (negrita) */
+    font-style: italic; /* estilo de nuestra letra*/
+    font-size: 20px; /* el tamaño de nuestra fuente, en este caso en pixeles (px)*/
+}
+
+#personajes {
+    list-style-type: decimal-leading-zero;
+}
+
+.parrafo-parametros {
+    font-weight: normal;
+    font-style: oblique;
+    font-size: large;
+}
+
+#lista {
+    list-style-type: circle;
+}
+
+.fondo-violeta {
+    background-color: violet;
+}

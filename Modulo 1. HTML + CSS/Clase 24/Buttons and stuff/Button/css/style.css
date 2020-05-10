@@ -1,0 +1,14 @@
+.button1 {
+  width: 150px;
+  height: 50px;
+  background-color: #ecf0f1;
+  color: #3498db;
+  font-family: "Roboto", sans-serif;
+  font-size: 300;
+  border: none; }
+  .button1:hover {
+    transition: 0.3 ease-out transform;
+    background-color: #3498db;
+    color: #ecf0f1;
+    cursor: pointer;
+    transform: translateY(-0.25em); }
