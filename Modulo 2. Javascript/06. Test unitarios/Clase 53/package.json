@@ -1,0 +1,11 @@
+{
+  "name": "clase-53",
+  "version": "1.0.0",
+  "description": "",
+  "main": "EjercicioCarrito.test.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "author": "",
+  "license": "ISC"
+}
